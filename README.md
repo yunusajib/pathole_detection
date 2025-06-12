@@ -10,4 +10,4 @@ pinned: false
 short_description: Detect pathole using Yolo
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+Check out the configuration reference at https://huggingface.co/spaces/yunusajib/pathole_detection_model
