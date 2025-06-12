@@ -11,34 +11,31 @@ A lightweight, real-time pothole detection system using YOLOv8 and Gradio. Uploa
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/pothole-detection-yolo.git
+git clone (https://github.com/yunusajib/pathole_detection.git)
+ 
 cd pothole-detection-yolo
-2. Install Dependencies
-bash
-Copy
-Edit
+### 2. Install Dependencies
+
 pip install -r requirements.txt
-3. Run the App
-bash
-Copy
-Edit
+### 3. Run the App
+
 python app.py
 The Gradio interface will launch at http://127.0.0.1:7860.
 
 📸 Using the Application
-Step 1: Upload Image
+### Step 1: Upload Image
 Open the Gradio interface
 
 Upload a road image (sample images provided)
 
-Step 2: Run Detection
+### Step 2: Run Detection
 The app processes the image using your YOLOv8 model
 
 Detected potholes are highlighted with blue boxes
 
 Labels show the class name and confidence
 
-Step 3: View Output
+### Step 3: View Output
 The output image displays bounding boxes for potholes
 
 Confidence scores are shown for each detection
@@ -77,9 +74,7 @@ No detections shown	Try another image or verify model training quality
 Out of memory	Use a smaller YOLO model like yolov8n.onnx
 
 📂 Folder Structure
-bash
-Copy
-Edit
+
 pothole-detection-yolo/
 │
 ├── app.py                # Main Gradio app
@@ -92,7 +87,7 @@ Replace sample images with real road scenes
 
 Integrate with a video stream or camera
 
-Deploy as a web app or mobile-friendly tool
+Deploy as a web app or mobile-friendly tool on HuggingFace: https://huggingface.co/spaces/yunusajib/pathole_detection_model
 
 Improve dataset for higher model accuracy
 
@@ -100,4 +95,3 @@ Improve dataset for higher model accuracy
 Yunusa Jibrin
 ---
 
-Check out the configuration reference at https://huggingface.co/spaces/yunusajib/pathole_detection_model
